@@ -1,7 +1,7 @@
 // src/pages/Contato.jsx
-import Perfil from "../components/Perfil";
-import Footer from "../components/Footer";
-import ConteudoContato from "../components/ConteudoContato";
+import Perfil from "../components/Perfil/Perfil";
+import Footer from "../components/Footer/Footer";
+import ConteudoContato from "../components/ConteudoContato/ConteudoContato";
 const Contato = () => {
     return (
         <div className="container">

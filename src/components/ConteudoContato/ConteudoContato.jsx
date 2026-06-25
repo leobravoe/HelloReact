@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../Navbar/Navbar'
 
-const CoteudoInicial = ({ col }) => {
+const ConteudoContato = ({col}) => {
     return (
         <div className={`col-12 col-md-${col}`}>
             <Navbar />
             {/* divApresentacao */}
             <div>
                 <div>
-                    <p>Texto apresentação</p>
+                    <p>Texto contato</p>
                 </div>
                 <div>
 
@@ -18,4 +18,4 @@ const CoteudoInicial = ({ col }) => {
     )
 }
 
-export default CoteudoInicial
+export default ConteudoContato

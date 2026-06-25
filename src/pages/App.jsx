@@ -1,7 +1,7 @@
 // src/components/App.jsx
-import Perfil from "../components/Perfil";
-import CoteudoInicial from "../components/CoteudoInicial";
-import Footer from "../components/Footer";
+import Perfil from "../components/Perfil/Perfil";
+import CoteudoInicial from "../components/CoteudoInicial/CoteudoInicial";
+import Footer from "../components/Footer/Footer";
 const App = () => {
     return (
         <div className="container">
