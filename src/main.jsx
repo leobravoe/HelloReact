@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import App from './components/App'
+import App from './pages/App'
 import Sobre from './pages/Sobre'
 import Contato from './pages/Contato'
 
