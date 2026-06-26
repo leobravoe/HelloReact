@@ -1,8 +1,13 @@
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+// bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+// bootstrap icons
+import 'bootstrap-icons/font/bootstrap-icons.min.css';
+// fontawesome-free 
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import App from './pages/App'
 import Sobre from './pages/Sobre'
