@@ -8,15 +8,15 @@ const Perfil = ({ col }) => {
             <img src={fotoPerfil} className='rounded-circle' />
             <div>
                 <Link to="/" className="btn btn-secondary">
-                    <i class="fa-solid fa-gamepad fa-sm"></i> {" "}
+                    <i className="fa-solid fa-gamepad fa-sm"></i> {" "}
                     gamedev
                 </Link>
                 <Link to="/" className="btn btn-primary">
-                    <i class="fa-solid fa-code fa-sm"></i> {" "}
+                    <i className="fa-solid fa-code fa-sm"></i> {" "}
                     webdev
                 </Link>
                 <Link to="/" className="btn btn-info text-white">
-                    <i class="fa-solid fa-book fa-sm"></i> {" "}
+                    <i className="fa-solid fa-book fa-sm"></i> {" "}
                     writing
                 </Link>
             </div>
